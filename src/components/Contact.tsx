@@ -109,7 +109,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-white text-sm mb-1">Phone</h4>
-                    <a href="tel:+97430066220" className="text-gray-400 text-sm hover:text-amber-500 transition-colors">+974 3006 6220</a>
+                    <a href="tel:+97450142398" className="text-gray-400 text-sm hover:text-amber-500 transition-colors">+974 5014 2398</a>
                   </div>
                 </div>
 
@@ -124,12 +124,12 @@ export default function Contact() {
                       <span className="text-[10px] bg-[#25D366]/20 text-[#25D366] px-2 py-0.5 rounded-full font-bold uppercase tracking-wider">Fastest Reply</span>
                     </h4>
                     <a
-                      href="https://wa.me/97430066220?text=Hello%20Premier%20Plus%2C%20I%20need%20assistance%20with%20ISO%20Certification."
+                      href="https://wa.me/97450142398?text=Hello%20Premier%20Plus%2C%20I%20need%20assistance%20with%20ISO%20Certification."
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-[#25D366] font-semibold text-sm hover:underline flex items-center gap-1 mt-0.5"
                     >
-                      +974 3006 6220 &rarr;
+                      +974 5014 2398 &rarr;
                     </a>
                   </div>
                 </div>

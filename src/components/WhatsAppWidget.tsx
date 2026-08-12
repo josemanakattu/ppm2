@@ -4,7 +4,7 @@ import { MessageCircle, X } from 'lucide-react';
 export default function WhatsAppWidget() {
   const [showTooltip, setShowTooltip] = useState(true);
 
-  const whatsappNumber = '97430066220'; // Qatar number format
+  const whatsappNumber = '97450142398'; // Qatar number format
   const defaultMessage = 'Hello Premier Plus, I am interested in ISO Certification services.';
 
   const handleOpenWhatsApp = () => {
