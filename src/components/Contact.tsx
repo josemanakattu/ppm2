@@ -98,7 +98,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-white text-sm mb-1">Our Office</h4>
-                    <p className="text-gray-400 text-sm">Office no 10, 2nd Floor<br/>Al Emadi Building, D ring road<br/>Doha | Qatar</p>
+                    <p className="text-gray-400 text-sm">Office No. 10. Building No. 219. Street 250. Zone 44<br/>Al Emadi Building. D Ring Road<br/>Doha | Qatar</p>
                   </div>
                 </div>
 

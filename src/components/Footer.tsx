@@ -23,8 +23,8 @@ export default function Footer() {
               Empowering organizations in Qatar to achieve excellence through globally recognized ISO certification standards.
             </p>
             <div className="text-sm text-gray-400 leading-relaxed mb-6">
-              <p>Office no 10, 2nd Floor</p>
-              <p>Al Emadi Building, D ring road</p>
+              <p>Office No. 10. Building No. 219. Street 250. Zone 44</p>
+              <p>Al Emadi Building. D Ring Road</p>
               <p>Doha | Qatar</p>
             </div>
           </div>
