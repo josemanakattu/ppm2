@@ -1,0 +1,6 @@
+{
+  "name": "Premier Plus Management Services",
+  "description": "Professional ISO Certification Body based in Doha, Qatar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
