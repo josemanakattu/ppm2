@@ -42,6 +42,20 @@ export const services = [
     subtitle: 'Energy Management',
     description: 'Improve energy performance, reduce costs, and meet environmental targets systematically.',
     icon: Award,
+  },
+  {
+    id: 'haccp',
+    title: 'HACCP',
+    subtitle: 'Hazard Analysis Critical Control Point',
+    description: 'A systematic preventive approach to food safety from biological, chemical, and physical hazards.',
+    icon: ShieldCheck,
+  },
+  {
+    id: 'many-more',
+    title: 'Many more...',
+    subtitle: 'And Various Other Standards',
+    description: 'We offer a wide range of additional certifications and specialized industry standards.',
+    icon: CheckCircle2,
   }
 ];
 

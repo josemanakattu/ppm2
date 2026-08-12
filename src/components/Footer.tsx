@@ -23,7 +23,7 @@ export default function Footer() {
               Empowering organizations in Qatar to achieve excellence through globally recognized ISO certification standards.
             </p>
             <div className="text-sm text-gray-400 leading-relaxed mb-6">
-              <p>Office no 04, 2nd Floor</p>
+              <p>Office no 10, 2nd Floor</p>
               <p>Al Emadi Building, D ring road</p>
               <p>Doha | Qatar</p>
             </div>
@@ -48,6 +48,8 @@ export default function Footer() {
               <li><a href="#services" className="hover:text-amber-500 transition-colors">ISO 45001:2018</a></li>
               <li><a href="#services" className="hover:text-amber-500 transition-colors">ISO 27001:2022</a></li>
               <li><a href="#services" className="hover:text-amber-500 transition-colors">ISO 22000:2018</a></li>
+              <li><a href="#services" className="hover:text-amber-500 transition-colors">HACCP</a></li>
+              <li><a href="#services" className="hover:text-amber-500 transition-colors">Many more...</a></li>
             </ul>
           </div>
 

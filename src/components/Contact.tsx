@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 import { Mail, Phone, MapPin, Send, MessageSquare, CheckCircle2, Copy, Check } from 'lucide-react';
 
 export default function Contact() {
-  const [targetEmail, setTargetEmail] = useState<'operations' | 'sales'>('operations');
+  const [targetEmail, setTargetEmail] = useState<'operations' | 'sales'>('sales');
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -98,7 +98,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-white text-sm mb-1">Our Office</h4>
-                    <p className="text-gray-400 text-sm">Office no 04, 2nd Floor<br/>Al Emadi Building, D ring road<br/>Doha | Qatar</p>
+                    <p className="text-gray-400 text-sm">Office no 10, 2nd Floor<br/>Al Emadi Building, D ring road<br/>Doha | Qatar</p>
                   </div>
                 </div>
 
@@ -145,22 +145,6 @@ export default function Contact() {
                     <div className="space-y-2 mt-2">
                       <div className="flex items-center justify-between text-sm bg-[#111113] p-2.5 rounded-lg border border-white/5">
                         <div>
-                          <span className="text-xs text-amber-500 font-bold block uppercase tracking-wider">Operations</span>
-                          <a href="mailto:operations@premierplus.qa" className="text-gray-300 hover:text-white transition-colors">
-                            operations@premierplus.qa
-                          </a>
-                        </div>
-                        <button
-                          onClick={() => handleCopyEmail('operations@premierplus.qa')}
-                          className="text-gray-500 hover:text-amber-500 p-1 transition-colors"
-                          title="Copy Email"
-                        >
-                          {copiedEmail === 'operations@premierplus.qa' ? <Check className="w-4 h-4 text-emerald-400" /> : <Copy className="w-4 h-4" />}
-                        </button>
-                      </div>
-
-                      <div className="flex items-center justify-between text-sm bg-[#111113] p-2.5 rounded-lg border border-white/5">
-                        <div>
                           <span className="text-xs text-amber-500 font-bold block uppercase tracking-wider">Sales & Inquiries</span>
                           <a href="mailto:sales@premierplus.qa" className="text-gray-300 hover:text-white transition-colors">
                             sales@premierplus.qa
@@ -172,6 +156,22 @@ export default function Contact() {
                           title="Copy Email"
                         >
                           {copiedEmail === 'sales@premierplus.qa' ? <Check className="w-4 h-4 text-emerald-400" /> : <Copy className="w-4 h-4" />}
+                        </button>
+                      </div>
+
+                      <div className="flex items-center justify-between text-sm bg-[#111113] p-2.5 rounded-lg border border-white/5">
+                        <div>
+                          <span className="text-xs text-amber-500 font-bold block uppercase tracking-wider">Operations</span>
+                          <a href="mailto:operations@premierplus.qa" className="text-gray-300 hover:text-white transition-colors">
+                            operations@premierplus.qa
+                          </a>
+                        </div>
+                        <button
+                          onClick={() => handleCopyEmail('operations@premierplus.qa')}
+                          className="text-gray-500 hover:text-amber-500 p-1 transition-colors"
+                          title="Copy Email"
+                        >
+                          {copiedEmail === 'operations@premierplus.qa' ? <Check className="w-4 h-4 text-emerald-400" /> : <Copy className="w-4 h-4" />}
                         </button>
                       </div>
                     </div>
@@ -197,17 +197,6 @@ export default function Contact() {
                 <div className="flex gap-2">
                   <button
                     type="button"
-                    onClick={() => setTargetEmail('operations')}
-                    className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                      targetEmail === 'operations'
-                        ? 'bg-amber-500 text-black shadow-md shadow-amber-500/20'
-                        : 'bg-white/5 text-gray-400 hover:text-white'
-                    }`}
-                  >
-                    Operations (operations@premierplus.qa)
-                  </button>
-                  <button
-                    type="button"
                     onClick={() => setTargetEmail('sales')}
                     className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
                       targetEmail === 'sales'
@@ -216,6 +205,17 @@ export default function Contact() {
                     }`}
                   >
                     Sales (sales@premierplus.qa)
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setTargetEmail('operations')}
+                    className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
+                      targetEmail === 'operations'
+                        ? 'bg-amber-500 text-black shadow-md shadow-amber-500/20'
+                        : 'bg-white/5 text-gray-400 hover:text-white'
+                    }`}
+                  >
+                    Operations (operations@premierplus.qa)
                   </button>
                 </div>
               </div>
