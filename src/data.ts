@@ -44,6 +44,27 @@ export const services = [
     icon: Award,
   },
   {
+    id: 'iso-13485',
+    title: 'ISO 13485:2016',
+    subtitle: 'Medical Devices Quality Management',
+    description: 'Demonstrate compliance with regulatory requirements and ensure the safety of medical devices.',
+    icon: HeartPulse,
+  },
+  {
+    id: 'iso-22301',
+    title: 'ISO 22301:2019',
+    subtitle: 'Business Continuity Management',
+    description: 'Protect against, reduce the likelihood of, and ensure your business recovers from disruptive incidents.',
+    icon: ShieldCheck,
+  },
+  {
+    id: 'iso-41001',
+    title: 'ISO 41001:2018',
+    subtitle: 'Facility Management',
+    description: 'Improve the quality of life of people and the productivity of the core business.',
+    icon: CheckCircle2,
+  },
+  {
     id: 'haccp',
     title: 'HACCP',
     subtitle: 'Hazard Analysis Critical Control Point',

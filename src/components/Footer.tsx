@@ -48,6 +48,10 @@ export default function Footer() {
               <li><a href="#services" className="hover:text-amber-500 transition-colors">ISO 45001:2018</a></li>
               <li><a href="#services" className="hover:text-amber-500 transition-colors">ISO 27001:2022</a></li>
               <li><a href="#services" className="hover:text-amber-500 transition-colors">ISO 22000:2018</a></li>
+              <li><a href="#services" className="hover:text-amber-500 transition-colors">ISO 13485:2016</a></li>
+              <li><a href="#services" className="hover:text-amber-500 transition-colors">ISO 50001:2018</a></li>
+              <li><a href="#services" className="hover:text-amber-500 transition-colors">ISO 22301:2019</a></li>
+              <li><a href="#services" className="hover:text-amber-500 transition-colors">ISO 41001:2018</a></li>
               <li><a href="#services" className="hover:text-amber-500 transition-colors">HACCP</a></li>
               <li><a href="#services" className="hover:text-amber-500 transition-colors">Many more...</a></li>
             </ul>

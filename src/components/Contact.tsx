@@ -295,6 +295,10 @@ export default function Contact() {
                   <option value="ISO 45001:2018 Occupational Health & Safety">ISO 45001 (Health & Safety)</option>
                   <option value="ISO 27001:2022 Information Security">ISO 27001 (Information Security)</option>
                   <option value="ISO 22000:2018 Food Safety Management">ISO 22000 (Food Safety)</option>
+                  <option value="ISO 13485:2016 Medical Devices">ISO 13485 (Medical Devices)</option>
+                  <option value="ISO 50001:2018 Energy Management">ISO 50001 (Energy Management)</option>
+                  <option value="ISO 22301:2019 Business Continuity">ISO 22301 (Business Continuity)</option>
+                  <option value="ISO 41001:2018 Facility Management">ISO 41001 (Facility Management)</option>
                   <option value="Integrated Management System (IMS)">Integrated Management System (IMS)</option>
                   <option value="ISO Training & Internal Auditing">ISO Training & Internal Auditing</option>
                 </select>
