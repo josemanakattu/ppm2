@@ -42,7 +42,7 @@ export default function Footer() {
 
           <div>
             <h4 className="text-amber-500 font-bold uppercase tracking-widest text-xs mb-4">Certifications</h4>
-            <ul className="space-y-3 text-sm">
+            <ul className="grid grid-cols-2 md:grid-cols-1 gap-x-4 gap-y-3 text-sm">
               <li><a href="#services" className="hover:text-amber-500 transition-colors">ISO 9001:2015</a></li>
               <li><a href="#services" className="hover:text-amber-500 transition-colors">ISO 14001:2015</a></li>
               <li><a href="#services" className="hover:text-amber-500 transition-colors">ISO 45001:2018</a></li>
